@@ -3,7 +3,7 @@
   "name": "localization-core-filament",
   "display_name": "Localization Filament",
   "description": "Localization filament presentation adapter.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "category": "presentation",
   "provider": "Liberu\\Foundation\\LocalizationCoreFilament\\LocalizationCoreFilamentServiceProvider",
   "requires": {
@@ -31,4 +31,3 @@
     }
   }
 }
-
