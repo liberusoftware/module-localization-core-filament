@@ -10,15 +10,5 @@ final class Overview extends Page
 {
     protected string $view = 'localization-core-filament::overview';
 
-    protected static ?string $slug = 'overview-localization';
-
-    public static function getNavigationLabel(): string
-    {
-        return __('filament.pages.localization');
-    }
-
-    public function getTitle(): string
-    {
-        return __('filament.pages.localization');
-    }
+    protected static ?string $title = 'Localization';
 }
